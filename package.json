@@ -1,0 +1,14 @@
+{
+  "name": "Maya take home exam",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "8.16.22",
+    "@wdio/cucumber-framework": "8.16.22",
+    "@wdio/junit-reporter": "8.16.22",
+    "@wdio/local-runner": "8.16.22",
+    "@wdio/spec-reporter": "8.16.22"
+  },
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js --spec features/CatFactsAPI.feature"
+  }
+}
